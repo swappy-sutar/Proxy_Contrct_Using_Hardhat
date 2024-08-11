@@ -1,11 +1,15 @@
-## proxy contract deploying using hardhat
+## proxy contract deploying on testNet using hardhat
 
-```#commands
+```# SETUP commands
     npm init --y
     npm install --save-dev hardhat
     npx init hardhat
+
+```
+
+````# Dependencies
     npm install --save-dev @openzeppelin/hardhat-upgrades
-    npx hardhat compile
+    npm install dotenv
 
 ```
 
@@ -17,4 +21,4 @@ npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+````
