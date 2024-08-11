@@ -26,7 +26,3 @@ main().catch((error) => {
   console.error(error);
   process.exit(1);
 });
-
-// Proxy contract address: 0x42d84389E37eC37f60782992278f87fd5Bf2e607
-// Implementation contract address: 0xcE045e054a5E6377545e595F755a4FEC74FaC494
-// Admin contract address: 0xB334905AF318F4533a3cE7C79e9E1be54A21cbEA
